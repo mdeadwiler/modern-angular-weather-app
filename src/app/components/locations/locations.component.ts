@@ -1,12 +1,15 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-locations',
-  standalone: true,
-  imports: [],
   templateUrl: './locations.component.html',
-  styleUrl: './locations.component.css'
+  styleUrls: ['./locations.component.css']
 })
-export class LocationsComponent {
+export class LocationsComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit(): void {
+  }
 
 }

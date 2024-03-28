@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BottomSectionComponent } from './bottom-section.component';
+import { ActionsComponent } from './actions.component';
 
-describe('BottomSectionComponent', () => {
-  let component: BottomSectionComponent;
-  let fixture: ComponentFixture<BottomSectionComponent>;
+describe('ActionsComponent', () => {
+  let component: ActionsComponent;
+  let fixture: ComponentFixture<ActionsComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [BottomSectionComponent]
+      declarations: [ ActionsComponent ]
     })
     .compileComponents();
-    
-    fixture = TestBed.createComponent(BottomSectionComponent);
+
+    fixture = TestBed.createComponent(ActionsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

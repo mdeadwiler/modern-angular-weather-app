@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MiddleSectionComponent } from './middle-section.component';
+import { NavigationComponent } from './navigation.component';
 
-describe('MiddleSectionComponent', () => {
-  let component: MiddleSectionComponent;
-  let fixture: ComponentFixture<MiddleSectionComponent>;
+describe('NavigationComponent', () => {
+  let component: NavigationComponent;
+  let fixture: ComponentFixture<NavigationComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [MiddleSectionComponent]
+      declarations: [ NavigationComponent ]
     })
     .compileComponents();
-    
-    fixture = TestBed.createComponent(MiddleSectionComponent);
+
+    fixture = TestBed.createComponent(NavigationComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
